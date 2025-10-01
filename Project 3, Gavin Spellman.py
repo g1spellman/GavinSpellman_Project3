@@ -8,6 +8,9 @@ with drawing.window(label='Rabbit', width=900, height=900):
         #Sky
         drawing.draw_rectangle((0, 0), (1000, 1000),
                                color=comp151Colors.BLUE, fill=comp151Colors.BLUE)
+        #Ground
+        drawing.draw_rectangle((0, 550), (1000, 1000),
+                               color=comp151Colors.BLUE, fill=comp151Colors.GREEN)
         #Tail
         drawing.draw_circle((600, 500), 40, color=comp151Colors.WHITE,
                             fill=comp151Colors.WHITE)
