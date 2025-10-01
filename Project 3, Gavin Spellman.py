@@ -5,6 +5,9 @@ drawing.create_context()
 drawing.create_viewport(title='My Drawing', width=900, height=900)
 with drawing.window(label='Rabbit', width=900, height=900):
     with drawing.drawlist(width=900, height=900):
+        #Sky
+        drawing.draw_rectangle((0, 0), (1000, 1000),
+                               color=comp151Colors.BLUE, fill=comp151Colors.BLUE)
         #Tail
         drawing.draw_circle((600, 500), 40, color=comp151Colors.WHITE,
                             fill=comp151Colors.WHITE)
@@ -28,9 +31,9 @@ with drawing.window(label='Rabbit', width=900, height=900):
         drawing.draw_line((400,250), (500,250), color=comp151Colors.BLACK,
                   thickness=3)
         #Eyes
-        drawing.draw_circle((400, 175), 25, color=comp151Colors.RED,
+        drawing.draw_circle((400, 175), 25, color=comp151Colors.WHITE,
                             fill=comp151Colors.BLACK)
-        drawing.draw_circle((500, 175), 25, color=comp151Colors.RED,
+        drawing.draw_circle((500, 175), 25, color=comp151Colors.WHITE,
                             fill=comp151Colors.BLACK)
         drawing.draw_circle((400, 175), 15, color=comp151Colors.WHITE,
                             fill=comp151Colors.WHITE)
@@ -44,6 +47,14 @@ with drawing.window(label='Rabbit', width=900, height=900):
         #Text
         drawing.draw_text((300, 600), "By Gavin Spellman",
                                color=comp151Colors.RED, size=32)
+        #Sun
+        drawing.draw_circle((0, 0), 150, color=comp151Colors.YELLOW,
+                            fill=comp151Colors.YELLOW)
+        drawing.draw_arrow((150, 150), (0, 0),
+                                color=comp151Colors.YELLOW, thickness=5)
+        drawing.draw_arrow((150, 120), (0, 0),
+                           color=comp151Colors.YELLOW, thickness=5)
+
 
 
 
