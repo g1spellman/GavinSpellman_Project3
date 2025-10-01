@@ -24,6 +24,11 @@ with drawing.window(label='Rabbit', width=900, height=900):
                               color=comp151Colors.BLACK, fill=comp151Colors.PINK)
         drawing.draw_triangle((600, 0),(700,150), (500,150),
                               color=comp151Colors.BLACK, fill=comp151Colors.PINK)
+        #Ear Inlays
+        drawing.draw_triangle((300, 50), (400, 150), (210, 150),
+                              color=comp151Colors.BLACK, fill=comp151Colors.WHITE)
+        drawing.draw_triangle((600, 50), (700, 150), (500, 150),
+                              color=comp151Colors.BLACK, fill=comp151Colors.WHITE)
         #Head
         drawing.draw_circle((450, 200), 100,
                             color=comp151Colors.BLACK, fill=comp151Colors.PINK)
