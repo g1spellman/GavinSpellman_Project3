@@ -1,10 +1,16 @@
 import dearpygui.dearpygui as drawing
 import comp151Colors
-#lets draw a rabbit
+#Rabbit
 drawing.create_context()
 drawing.create_viewport(title='My Drawing', width=900, height=900)
-with drawing.window(label='My Drawing', width=900, height=900):
+with drawing.window(label='Rabbit', width=900, height=900):
     with drawing.drawlist(width=900, height=900):
+        #Tail
+        drawing.draw_circle((600, 500), 40, color=comp151Colors.WHITE,
+                            fill=comp151Colors.WHITE)
+        # Body
+        drawing.draw_ellipse((585, 290), (320, 600), color=comp151Colors.BLACK,
+                             fill=comp151Colors.PINK)
         #Ears
         drawing.draw_triangle((300,0), (400,150), (210,150),
                               color=comp151Colors.BLACK, fill=comp151Colors.PINK)
@@ -31,9 +37,12 @@ with drawing.window(label='My Drawing', width=900, height=900):
         #Feet
         drawing.draw_ellipse((500, 500), (750, 600),color=comp151Colors.BLACK,
                             fill = comp151Colors.PINK)
-        drawing.draw_ellipse((100, 500), (350, 600), color=comp151Colors.BLACK,
+        drawing.draw_ellipse((150, 500), (400, 600), color=comp151Colors.BLACK,
                              fill=comp151Colors.PINK)
-        #Body
+        #Text
+        drawing.draw_text((300, 600), "By Gavin Spellman",
+                               color=comp151Colors.RED, size=32)
+
 
 
 drawing.setup_dearpygui()
