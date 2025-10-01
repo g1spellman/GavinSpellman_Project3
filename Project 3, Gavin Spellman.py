@@ -11,6 +11,8 @@ with drawing.window(label='Rabbit', width=900, height=900):
         # Body
         drawing.draw_ellipse((585, 290), (320, 600), color=comp151Colors.BLACK,
                              fill=comp151Colors.PINK)
+        drawing.draw_ellipse((550, 325), (350, 550), color=comp151Colors.BLACK,
+                             fill=comp151Colors.WHITE)
         #Ears
         drawing.draw_triangle((300,0), (400,150), (210,150),
                               color=comp151Colors.BLACK, fill=comp151Colors.PINK)
