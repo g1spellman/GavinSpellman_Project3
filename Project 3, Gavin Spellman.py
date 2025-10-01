@@ -52,7 +52,9 @@ with drawing.window(label='Rabbit', width=900, height=900):
                             fill=comp151Colors.YELLOW)
         drawing.draw_arrow((150, 150), (0, 0),
                                 color=comp151Colors.YELLOW, thickness=5)
-        drawing.draw_arrow((150, 120), (0, 0),
+        drawing.draw_arrow((200, 50), (0, 0),
+                           color=comp151Colors.YELLOW, thickness=5)
+        drawing.draw_arrow((25, 200), (0, 0),
                            color=comp151Colors.YELLOW, thickness=5)
 
 
