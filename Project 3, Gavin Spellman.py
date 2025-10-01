@@ -1,6 +1,6 @@
 import dearpygui.dearpygui as drawing
 import comp151Colors
-
+#lets draw a rabbit
 drawing.create_context()
 drawing.create_viewport(title='Face', width=900, height=900)
 with drawing.window(label='Face', width=900, height=900):

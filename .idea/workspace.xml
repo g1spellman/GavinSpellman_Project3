@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd4372f7-dd98-478a-8598-b164f452d2a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Project3_GavinSpellman.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project 3, Gavin Spellman.py" afterDir="false" />
+    <list default="true" id="fd4372f7-dd98-478a-8598-b164f452d2a5" name="Changes" comment="draft">
+      <change beforePath="$PROJECT_DIR$/Project 3, Gavin Spellman.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 3, Gavin Spellman.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +33,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Colors_2.executor": "Run",
+    "Python.Graph.executor": "Run",
     "Python.Project 3, Gavin Spellman.executor": "Run",
+    "Python.colors.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/GBSpe/PycharmProjects/Project3_GavinSpellman/.venv",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\GBSpe\PycharmProjects\Project3_GavinSpellman\.venv" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -58,6 +64,19 @@
       <option name="presentableId" value="Default" />
       <updated>1759320211596</updated>
     </task>
+    <task id="LOCAL-00001" summary="draft">
+      <option name="closed" value="true" />
+      <created>1759320662641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759320662641</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="draft" />
+    <option name="LAST_COMMIT_MESSAGE" value="draft" />
   </component>
 </project>
